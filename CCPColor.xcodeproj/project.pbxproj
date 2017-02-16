@@ -12,6 +12,7 @@
 		7EBA73311E55531600162A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA732F1E55531600162A24 /* Main.storyboard */; };
 		7EBA73331E55531600162A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA73321E55531600162A24 /* Assets.xcassets */; };
 		7EBA73361E55531600162A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBA73341E55531600162A24 /* LaunchScreen.storyboard */; };
+		7EBA733E1E55535300162A24 /* CCPColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBA733D1E55535300162A24 /* CCPColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7EBA73321E55531600162A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EBA73351E55531600162A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EBA73371E55531600162A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBA733D1E55535300162A24 /* CCPColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7EBA732B1E55531600162A24 /* AppDelegate.swift */,
 				7EBA732D1E55531600162A24 /* ViewController.swift */,
+				7EBA733D1E55535300162A24 /* CCPColor.swift */,
 				7EBA732F1E55531600162A24 /* Main.storyboard */,
 				7EBA73321E55531600162A24 /* Assets.xcassets */,
 				7EBA73341E55531600162A24 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EBA732E1E55531600162A24 /* ViewController.swift in Sources */,
+				7EBA733E1E55535300162A24 /* CCPColor.swift in Sources */,
 				7EBA732C1E55531600162A24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
 				INFOPLIST_FILE = CCPColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
 				INFOPLIST_FILE = CCPColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";

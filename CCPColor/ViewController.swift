@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let gradient = [UIColor.rgb([30]),UIColor.rgb([30,90,120]),UIColor.hex("#8D24FF")].gradient() {
+            $0.locations = [0.2,0.6,1.0]
+            $0.bounds = self.view.bounds
+            $0.frame = self.view.frame
+            return $0
+        }
+        view.layer.addSublayer(gradient)
     }
 
     override func didReceiveMemoryWarning() {
